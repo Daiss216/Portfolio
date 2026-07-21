@@ -16,10 +16,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_k8ipw0w",
-        "template_3trgkvm",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        "54JTnsX_4W3il2LXZ",
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {
