@@ -4,7 +4,7 @@ A clean personal portfolio built with React and Vite to showcase my work, skills
 
 ## Live Demo
 
-[View Website]()
+[View Website](https://portfolio-omega-rose-vtr8fstvzw.vercel.app/)
 
 ## Tech Stack
 
@@ -18,11 +18,5 @@ React, Vite, CSS, EmailJS
 - Contact form with EmailJS
 - Clean and modern UI
 
-## Run Locally
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install
-npm run dev
-```
+## Contact
+If you'd like to connect, feel free to reach out through the contact form on the website :) .
