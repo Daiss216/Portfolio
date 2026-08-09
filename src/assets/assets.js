@@ -113,13 +113,13 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Book Genre Analysis",
+    title: "Dark Pattern Detector",
     description:
-      "An analysis of book genres and their popularity across different regions and time periods.",
-    image: project1,
-    tech: ["R", "MongoDB"],
-    icons: [FaCode, FaDatabase],
-    livelink: "#",
+      "An AI tool that identifies misleading design patterns such as fake urgency and hidden fees on websites.",
+    image: project6,
+    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
+    icons: [FaRobot, FaReact, FaCloud],
+    livelink: "https://dark-pattern-detector-prototype.vercel.app",
   },
   {
     title: "AI Workforce Market Analysis",
@@ -128,7 +128,8 @@ export const projects = [
     image: project2,
     tech: ["Power BI", "SQL", "kaggle"],
     icons: [FaFilePowerpoint, FaDatabase, FaFire],
-    livelink: "#",
+    livelink:
+      "https://drive.google.com/file/d/1ngM7jdrMZRojLzazin2LuOo5uy0BPwPw/view?usp=drivesdk",
   },
   {
     title: "AarogyaSanchay",
@@ -146,7 +147,7 @@ export const projects = [
     image: project4,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    livelink: "#",
+    livelink: "https://portfolio-daiss216s-projects.vercel.app",
   },
   {
     title: "ResourceHub",
@@ -158,12 +159,12 @@ export const projects = [
     livelink: "https://resource-sharing-five.vercel.app",
   },
   {
-    title: "Dark Pattern Detector",
+    title: "Book Genre Analysis",
     description:
-      "An AI tool that identifies misleading design patterns such as fake urgency and hidden fees on websites.",
-    image: project6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
+      "An analysis of book genres and their popularity across different regions and time periods.",
+    image: project1,
+    tech: ["R", "MongoDB"],
+    icons: [FaCode, FaDatabase],
     livelink: "#",
   },
 ];
