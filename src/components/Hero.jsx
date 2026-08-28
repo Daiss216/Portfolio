@@ -28,7 +28,7 @@ const Hero = () => {
           {/*BUTTONS*/}
           <div className="flex space-x-4">
             <a
-              href="https://drive.google.com/file/d/12QS6PHu7bUZgGZYqdrB6GnNObfGzc7WD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1mScoJRfT442aM4JvCvOz4U4gMhE73XyG/view?usp=sharing"
               className="px-6 py-3 bg-[#0AA9E8] rounded-lg font-medium hover:bg-[#0479A8] transition duration-300"
             >
               Resume
