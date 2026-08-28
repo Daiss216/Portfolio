@@ -74,7 +74,15 @@ export const skills = [
     icon: FaRobot,
     description:
       "Building intelligent applications with machine learning and artificial intelligence.",
-    tags: ["Numpy", "Pandas", "Scikit-learn", "Seaborn", "Matplotlib", "LLMs", "RAG"],
+    tags: [
+      "Numpy",
+      "Pandas",
+      "Scikit-learn",
+      "Seaborn",
+      "Matplotlib",
+      "LLMs",
+      "RAG",
+    ],
   },
   {
     title: "Frontend Development",
@@ -107,7 +115,14 @@ export const skills = [
     icon: FaTools,
     description:
       "Essential tools and technologies I use in my development workflow.",
-    tags: ["Git", "GitHub", "Power BI", "Tableau"],
+    tags: [
+      "Git",
+      "GitHub",
+      "Google Colab",
+      "Jupyter Notebook",
+      "VS Code",
+      "Power BI",
+    ],
   },
 ];
 
@@ -148,7 +163,7 @@ export const projects = [
       "NLP models",
       "Google Maps API",
     ],
-    icons: [FaReact, FaDatabase],
+    icons: [FaReact, FaDatabase, FaNodeJs, FaCloud, FaStripe, FaRobot],
     livelink: "https://arogyasanchay.onrender.com",
   },
   {
@@ -157,7 +172,7 @@ export const projects = [
       "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     image: project4,
     tech: ["React.js", "Vite", "Tailwind CSS", "Email.js"],
-    icons: [FaReact, FaCloud],
+    icons: [FaReact, FaCloud, FaNodeJs],
     livelink: "https://portfolio-daiss216s-projects.vercel.app",
   },
   {
@@ -173,7 +188,7 @@ export const projects = [
       "Cloud Firestore",
       "Firebase Storage",
     ],
-    icons: [FaReact, FaNodeJs, FaDatabase],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaCloud],
     livelink: "https://resource-sharing-five.vercel.app",
   },
   {
@@ -181,8 +196,15 @@ export const projects = [
     description:
       "An AI tool that identifies misleading design patterns such as fake urgency and hidden fees on websites.",
     image: project6,
-    tech: ["React.js", "Tailwind CSS", "REST API", "Genkit", "Firebase" "Gemini API"],
-    icons: [FaRobot, FaReact, FaCloud],
+    tech: [
+      "React.js",
+      "Tailwind CSS",
+      "REST API",
+      "Genkit",
+      "Firebase",
+      "Gemini API",
+    ],
+    icons: [FaRobot, FaReact, FaCloud, FaDatabase],
     livelink: "https://dark-pattern-detector-prototype.vercel.app",
   },
 ];
