@@ -74,20 +74,20 @@ export const skills = [
     icon: FaRobot,
     description:
       "Building intelligent applications with machine learning and artificial intelligence.",
-    tags: ["Python", "TensorFlow", "PyTorch", "Scikit-learn"],
+    tags: ["Numpy", "Pandas", "Scikit-learn", "Seaborn", "Matplotlib", "LLMs", "RAG"],
   },
   {
     title: "Frontend Development",
     icon: FaReact,
     description:
       "Building responsive and interactive user interfaces with modern frameworks.",
-    tags: ["React", "Vue.js", "TypeScript", "HTML", "CSS", "JavaScript"],
+    tags: ["React", "TypeScript", "HTML", "CSS", "JavaScript"],
   },
   {
     title: "Backend Development",
     icon: FaServer,
     description: "Creating robust server-side applications.",
-    tags: ["Node.js", "Django"],
+    tags: ["Node.js", "Python", "Django"],
   },
   {
     title: "Database Management",
@@ -100,7 +100,7 @@ export const skills = [
     title: "Cloud & DevOps",
     icon: FaCloud,
     description: "Deploying and managing applications in cloud environments.",
-    tags: ["AWS", "Docker"],
+    tags: ["AWS", "Amazon EC2", "CI/CD", "Docker"],
   },
   {
     title: "Tools & Technologies",
