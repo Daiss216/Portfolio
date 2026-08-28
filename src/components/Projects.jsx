@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { projects } from "../assets/assets";
 import ProjectCard from "./ProjectCard";
+import { FaArrowRight } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -26,6 +27,15 @@ const Projects = () => {
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
+        </div>
+        <div className="text-center mt-12">
+          <a
+            href="https://github.com/Daiss216"
+            className="inline-flex items-center px-6 py-3 border border-[#0AA9E8] rounded-lg font-medium hover:bg-[#0AA9E8]/20 transition duration-300"
+          >
+            <span>View More Projects</span>
+            <FaArrowRight className="ml-2" />
+          </a>
         </div>
       </div>
     </motion.div>
