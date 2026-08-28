@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="py-8 bg-dark-300">
       <div className="container mx-auto px-6 text-center">
         <p className="text-gray-400">
-          Crafted with React and curiosity by Shimul.
+          © <span id="year"></span> Shimul Suplekar. All rights reserved.
         </p>
       </div>
     </div>
