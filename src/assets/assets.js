@@ -136,7 +136,18 @@ export const projects = [
     description:
       "A healthcare record platform designed to track migrant health data, improve disease surveillance, and support fair access to care.",
     image: project3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
+    tech: [
+      "JavaScript",
+      "Tailwind CSS",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+      "MongoDB",
+      "Gemini API",
+      "NLP models",
+      "Google Maps API",
+    ],
     icons: [FaReact, FaDatabase],
     livelink: "https://arogyasanchay.onrender.com",
   },
@@ -145,7 +156,7 @@ export const projects = [
     description:
       "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     image: project4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    tech: ["React.js", "Vite", "Tailwind CSS", "Email.js"],
     icons: [FaReact, FaCloud],
     livelink: "https://portfolio-daiss216s-projects.vercel.app",
   },
@@ -154,7 +165,14 @@ export const projects = [
     description:
       "A simple platform for students to upload, approve, and access department study resources in one place.",
     image: project5,
-    tech: ["React", "Vite", "Tailwind CSS", "Firebase"],
+    tech: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Firebase Authentication",
+      "Cloud Firestore",
+      "Firebase Storage",
+    ],
     icons: [FaReact, FaNodeJs, FaDatabase],
     livelink: "https://resource-sharing-five.vercel.app",
   },
@@ -163,7 +181,7 @@ export const projects = [
     description:
       "An AI tool that identifies misleading design patterns such as fake urgency and hidden fees on websites.",
     image: project6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
+    tech: ["React.js", "Tailwind CSS", "REST API", "Genkit", "Firebase" "Gemini API"],
     icons: [FaRobot, FaReact, FaCloud],
     livelink: "https://dark-pattern-detector-prototype.vercel.app",
   },
