@@ -28,7 +28,7 @@ const Hero = () => {
           {/*BUTTONS*/}
           <div className="flex space-x-4">
             <a
-              href="https://drive.google.com/file/d/1mScoJRfT442aM4JvCvOz4U4gMhE73XyG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yUm6Q1xEuwFxyQ7UfFp-v7yPgI98-1gI/view?usp=sharing"
               className="px-6 py-3 bg-[#0AA9E8] rounded-lg font-medium hover:bg-[#0479A8] transition duration-300"
             >
               Resume
@@ -44,7 +44,7 @@ const Hero = () => {
 
         {/*RIGHT COLUMN*/}
         <div className="md:w-1/2 flex justify-center">
-          <div className="relative w-64 h-64 md:w-80 md:h-80">
+          <div className="relative w-64 h-64 md:w-80 md:h-80 animate-float">
             <div className="absolute inset-0 rounded-full opacity-70">
               <img
                 className="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10"

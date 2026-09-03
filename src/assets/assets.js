@@ -18,20 +18,9 @@ import {
 
 import profileImg from "../assets/portrait.png";
 
-import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.avif";
+import project1 from "../assets/project1.avif";
+import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
-import project4 from "../assets/project4.png";
-import project5 from "../assets/project5.png";
-import project6 from "../assets/project6.png";
-
-{
-  /*
-  import cert1 from "../assets/Excel.png";
-  import cert2 from "../assets/GSC.png";
-  import cert4 from "../assets/gdg.png";
-*/
-}
 
 export const assets = {
   profileImg,
@@ -128,19 +117,10 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Book Genre Analysis",
-    description:
-      "An analysis of book genres and their popularity across different regions and time periods.",
-    image: project1,
-    tech: ["R", "MongoDB"],
-    icons: [FaCode, FaDatabase],
-    livelink: "#",
-  },
-  {
     title: "AI Workforce Market Analysis",
     description:
       "A Power BI dashboard analyzing the AI workforce market, covering job count, salary range, industry demand, company size, employment type, required tools and skills, locations, and experience levels.",
-    image: project2,
+    image: project1,
     tech: ["Power BI", "SQL", "kaggle"],
     icons: [FaFilePowerpoint, FaDatabase, FaFire],
     livelink:
@@ -150,7 +130,7 @@ export const projects = [
     title: "AarogyaSanchay",
     description:
       "A healthcare record platform designed to track migrant health data, improve disease surveillance, and support fair access to care.",
-    image: project3,
+    image: project2,
     tech: [
       "JavaScript",
       "Tailwind CSS",
@@ -167,35 +147,10 @@ export const projects = [
     livelink: "https://arogyasanchay.onrender.com",
   },
   {
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: project4,
-    tech: ["React.js", "Vite", "Tailwind CSS", "Email.js"],
-    icons: [FaReact, FaCloud, FaNodeJs],
-    livelink: "https://portfolio-daiss216s-projects.vercel.app",
-  },
-  {
-    title: "ResourceHub",
-    description:
-      "A simple platform for students to upload, approve, and access department study resources in one place.",
-    image: project5,
-    tech: [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Firebase Authentication",
-      "Cloud Firestore",
-      "Firebase Storage",
-    ],
-    icons: [FaReact, FaNodeJs, FaDatabase, FaCloud],
-    livelink: "https://resource-sharing-five.vercel.app",
-  },
-  {
     title: "Dark Pattern Detector",
     description:
       "An AI tool that identifies misleading design patterns such as fake urgency and hidden fees on websites.",
-    image: project6,
+    image: project3,
     tech: [
       "React.js",
       "Tailwind CSS",
@@ -209,7 +164,8 @@ export const projects = [
   },
 ];
 
-export const certificates = [
+{
+  /*export const certificates = [
   {
     title: "Google Data Analytics",
     issuer: "Coursera",
@@ -226,6 +182,8 @@ export const certificates = [
     year: "2024",
   },
 ];
+*/
+}
 
 export const Info = [
   {
